@@ -90,4 +90,6 @@
 .music-controller-icons button {
   background: none;
   border: none;
+  width: 60px;
+  height: auto;
 }
