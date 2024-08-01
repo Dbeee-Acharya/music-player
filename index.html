@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Music Player</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/7617766d43.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="music-player-main-wrapper">
+      <div class="music-player">
+        <div class="music-player-image-container">
+          <img
+            src="https://reeteshghimire.com.np/ritesh1.png"
+            alt="player image"
+          />
+        </div>
+
+        <div class="music-title">
+          <p>Reetesh Jee Music Mania</p>
+          <span>Reetesh Ghimire </span>
+        </div>
+
+        <div class="music-progress-controller">
+          <audio controls id="main-audio">
+            <source src="music.mp3" type="audio/mpeg" />
+          </audio>
+
+          <input
+            type="range"
+            name="music-range"
+            value="0"
+            id="music-progress"
+          />
+        </div>
+
+        <div class="music-controller">
+          <div class="music-controller-icons">
+            <button class="play-button">
+              <i class="fa-solid fa-play fa-2xl" id="play-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
